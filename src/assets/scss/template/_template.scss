@@ -60,15 +60,12 @@ strong {
 		hyphens: none;
 	}
 }
-.footer {
-	& > tbody > tr > th {
-		padding-left: 0 !important;
-		padding-right: 16px !important;
-	}
-}
+
 .footer__social {
 	background-color: #4b4b4b;
 	background: #4b4b4b;
+	padding-left: 8px !important;
+	padding-right: 8px !important;
 	display: inline-block;
 	img {
 		padding-top: 60px;

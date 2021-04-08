@@ -1,119 +1,28 @@
-$purple: #5b1ce6;
-$bg-purple: #030328;
-$p-color: #5d5c71;
-
-html,
-body {
-	padding-bottom: 300px;
+$bgcolor: #f9f9f7;
+h1,
+p,
+strong {
+	color: #444444;
 }
-.headline {
+.header__logo {
+	background-color: $bgcolor;
+	background: $bgcolor;
+	img {
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+}
+.header__payment-processed {
+	padding-top: 10px;
 	h1 {
-		text-align: center;
-		color: #030328;
-		font-weight: bold;
-		padding-top: 40px;
+		color: #444444;
+		font-size: 26px;
+		font-weight: 700;
 	}
+}
+.header__details {
 	p {
-		text-align: center;
-		padding-right: 30px !important;
-		padding-left: 30px !important;
-		padding-bottom: 15px !important;
-	}
-}
-.drkbg-header {
-	background: $bg-purple;
-	background-color: $bg-purple;
-	h2 {
-		background: $bg-purple;
-		background-color: $bg-purple;
-		color: white;
-		text-align: center;
-		font-weight: bold;
-		padding-top: 30px;
-	}
-}
-.drkbg-content {
-	background: $bg-purple;
-	background-color: $bg-purple;
-	h3 {
-		font-weight: bold;
-		color: white;
-	}
-	p {
-		font-size: 14px;
-		color: white;
-	}
-}
-.whitegb-header {
-	h2 {
-		color: black;
-		text-align: center;
-		font-weight: bold;
-		padding-top: 30px;
-	}
-}
-.whitebg-content {
-	& > tbody > tr > th > th {
-		padding-right: 20px !important;
-	}
-	h3 {
-		font-weight: bold;
-		color: #030328;
-	}
-	p {
-		font-size: 14px;
-		color: $p-color;
-		padding-right: 20px !important;
-		hyphens: none;
-	}
-}
-.social {
-	display: inline-block;
-	img {
-		width: 32px;
-		display: inline-block;
-		padding-top: 40px;
-		padding-right: 5px;
-		padding-left: 5px;
-	}
-}
-.app-stores {
-	img {
-		height: 45px;
-		display: inline-block;
-		padding-right: 5px;
-		padding-left: 10px;
-	}
-}
-.where-to-stream {
-	background: #515151;
-	background-color: #515151;
-	h3 {
-		color: white;
-		text-align: center;
-		font-weight: bold;
-		padding-top: 10px;
-	}
-	img {
-		width: 500px;
-	}
-}
-.footer-hbo-logo {
-	background: $bg-purple;
-	background-color: $bg-purple;
-	img {
-		width: 134px;
-		padding-top: 30px;
-		background: $bg-purple;
-		background-color: $bg-purple;
-	}
-	p {
-		color: white;
-		font-size: 12px;
-		text-align: center;
-		padding-top: 10px;
-		padding-bottom: 40px;
-		background: $bg-purple;
-		background-color: $bg-purple;
+		padding-left: 20px !important;
+		padding-right: 50px !important;
 	}
 }

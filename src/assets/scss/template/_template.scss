@@ -9,7 +9,12 @@ strong {
 	background: $bgcolor;
 	img {
 		padding-top: 40px;
-		padding-bottom: 30px;
+		padding-bottom: 10px;
+	}
+}
+.money-sign {
+	img {
+		padding-left: 20px;
 	}
 }
 .header__payment-processed {
@@ -22,7 +27,7 @@ strong {
 }
 .header__details {
 	p {
-		padding-left: 20px !important;
+		padding-left: 40px !important;
 	}
 }
 .transaction {
@@ -48,7 +53,6 @@ strong {
 	padding-right: 20px !important;
 	p {
 		hyphens: none;
-		padding-bottom: 30px;
 	}
 	a {
 		color: #444444;

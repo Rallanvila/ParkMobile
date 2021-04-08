@@ -1,4 +1,4 @@
-# COMPANY NAME HTML Promo Email
+# ParkMobile HTML Promo Email
 
 ## Project Context
 
@@ -27,7 +27,7 @@ Project is created with:
 
 ## See the email below!
 
-[Link to HTML Newsletter Email](https://github.com/Rallanvila/GITHUBREPONAME)
+[Link to HTML Newsletter Email](https:/rallanvila.com/parkmobile.html)
 
 ## Build Commands
 
